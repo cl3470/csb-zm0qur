@@ -63,6 +63,7 @@ function setup() {
       Tone.Transport.start();
     } else if (toggle.value() === "stop") {
       Tone.Transport.stop();
+      background("red");
     }
   });
 
