@@ -59,6 +59,7 @@ function setup() {
   toggle.selected("stop");
   toggle.changed(() => {
     if (toggle.value() === "start") {
+      Tone.start();
       Tone.Transport.start();
     } else if (toggle.value() === "stop") {
       Tone.Transport.stop();
