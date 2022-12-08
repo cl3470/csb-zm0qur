@@ -210,7 +210,7 @@ function draw() {
   fill("white");
   rect(10 + kickBox, 10 + clapBox, 150, 30);
   fill(0);
-  text("kick", 65 + kickBox, 30 + clapBox);
+  text("Kick", 65 + kickBox, 30 + clapBox);
 
   let snareBox = 310;
   fill("orange");
@@ -218,7 +218,7 @@ function draw() {
   fill("white");
   rect(10 + snareBox, 10 + clapBox, 150, 30);
   fill(0);
-  text("snare", 65 + snareBox, 30 + clapBox);
+  text("Snare", 65 + snareBox, 30 + clapBox);
 
   text("Distortion", 55, 180);
   text("Distortion", 210, 180);
