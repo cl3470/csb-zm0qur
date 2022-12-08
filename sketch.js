@@ -69,52 +69,52 @@ function setup() {
   bpmSlider.position(450, 20);
 
   dist0 = createSlider(0, 1, 0, 0);
-  dist0.position(10, 180);
+  dist0.position(10, 240);
 
   dist1 = createSlider(0, 1, 0, 0);
-  dist1.position(165, 180);
+  dist1.position(165, 240);
 
   dist2 = createSlider(0, 1, 0, 0);
-  dist2.position(320, 180);
+  dist2.position(320, 240);
 
   dist3 = createSlider(0, 1, 0, 0);
-  dist3.position(475, 180);
+  dist3.position(475, 240);
 
   wetMix0 = createSlider(0, 1, 0, 0);
-  wetMix0.position(10, 210);
+  wetMix0.position(10, 270);
 
   wetMix1 = createSlider(0, 1, 0, 0);
-  wetMix1.position(165, 210);
+  wetMix1.position(165, 270);
 
   wetMix2 = createSlider(0, 1, 0, 0);
-  wetMix2.position(320, 210);
+  wetMix2.position(320, 270);
 
   wetMix3 = createSlider(0, 1, 0, 0);
-  wetMix3.position(475, 210);
+  wetMix3.position(475, 270);
 
   room0 = createSlider(0, 1, 0, 0);
-  room0.position(10, 240);
+  room0.position(10, 210);
 
   room1 = createSlider(0, 1, 0, 0);
-  room1.position(165, 240);
+  room1.position(165, 210);
 
   room2 = createSlider(0, 1, 0, 0);
-  room2.position(320, 240);
+  room2.position(320, 210);
 
   room3 = createSlider(0, 1, 0, 0);
-  room3.position(475, 240);
+  room3.position(475, 210);
 
   pitch0 = createSlider(-12, 12, 2, 1);
-  pitch0.position(10, 270);
+  pitch0.position(10, 180);
 
   pitch1 = createSlider(-12, 12, 2, 1);
-  pitch1.position(165, 270);
+  pitch1.position(165, 180);
 
   pitch2 = createSlider(-12, 12, 2, 1);
-  pitch2.position(320, 270);
+  pitch2.position(320, 180);
 
   pitch3 = createSlider(-12, 12, 2, 1);
-  pitch3.position(475, 270);
+  pitch3.position(475, 180);
 
   humanizeSlider = createSlider(0, 1, 0, 0);
   humanizeSlider.position(450, 50);
@@ -220,20 +220,20 @@ function draw() {
   fill(0);
   text("Snare", 65 + snareBox, 30 + clapBox);
 
-  text("Distortion", 55, 180);
-  text("Distortion", 210, 180);
-  text("Distortion", 365, 180);
-  text("Distortion", 520, 180);
-  text("Delay", 55, 210);
-  text("Delay", 210, 210);
-  text("Delay", 365, 210);
-  text("Delay", 520, 210);
-  text("Reverb", 55, 240);
-  text("Reverb", 210, 240);
-  text("Reverb", 365, 240);
-  text("Reverb", 520, 240);
-  text("Pitch", 55, 270);
-  text("Pitch", 210, 270);
-  text("Pitch", 365, 270);
-  text("Pitch", 520, 270);
+  text("Distortion", 55, 240);
+  text("Distortion", 210, 240);
+  text("Distortion", 365, 240);
+  text("Distortion", 520, 240);
+  text("Delay", 55, 270);
+  text("Delay", 210, 270);
+  text("Delay", 365, 270);
+  text("Delay", 520, 270);
+  text("Reverb", 55, 210);
+  text("Reverb", 210, 210);
+  text("Reverb", 365, 210);
+  text("Reverb", 520, 210);
+  text("Pitch", 55, 180);
+  text("Pitch", 210, 180);
+  text("Pitch", 365, 180);
+  text("Pitch", 520, 180);
 }
